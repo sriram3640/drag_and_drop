@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Container for the drag and drop interface -->
+  <div class="container">
+    <!-- Container 1 -->
+    <div id="container1" class="drag-container">
+      <!-- Heading for Container 1 -->
+      <center><h2>Container-1</h2></center>
+      
+      <!-- Items to be dragged -->
+      <div class="item" draggable="true">Banana</div>
+      <div class="item" draggable="true">Apple</div>
+      <div class="item" draggable="true">Mango</div>
+      <div class="item" draggable="true">Orange</div>
+      <div class="item" draggable="true">Pineapple</div>
+      <div class="item" draggable="true">Pomegranate</div>
+      <div class="item" draggable="true">Strawberry</div>
+    </div>
+    
+    <!-- Container 2 -->
+    <div id="container2" class="drop-container">
+      <!-- Heading for Container 2 -->
+      <center><h2>Container-2</h2></center>
+    </div>
+  </div>
+  
+  <!-- Reset button -->
+  <button id="reset-btn">Reset</button>
+  
+  <!-- Success message -->
+  <p class="success-message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
